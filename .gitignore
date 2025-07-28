@@ -1,5 +1,5 @@
-# Ignore Python virtual environment
-krishimitra_env/
+# Ignore Python virtual environment inside ML folder
+ML/krishimitra_env/
 
 # Ignore VS Code settings
 .vscode/
