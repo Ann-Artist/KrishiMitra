@@ -51,5 +51,4 @@ To develop a fully offline, voice-controlled mobile application for Android that
 
 ---
 
-## 📂 Folder Structure (Sample)
 
