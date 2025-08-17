@@ -6,6 +6,56 @@ ML/krishimitra_env/
 
 # Ignore system files
 .DS_Store
+Thumbs.db
 
 # Ignore logs
 *.log
+
+# ML Models and Large Files (optional - see note below)
+# Uncomment if you want to exclude large model files
+# *.h5
+# *.tflite
+# *.pkl
+# *.joblib
+
+# Dataset directories - EXCLUDED due to large size (1000+ images)
+ML/data/training_data/
+ML/data/test_images/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Model training artifacts
+ML/ml_models/*/checkpoints/
+ML/ml_models/*/logs/
+tensorboard_logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
